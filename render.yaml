@@ -1,0 +1,10 @@
+# Render Blueprint: one Docker web service (engine + clang + frontend).
+services:
+  - type: web
+    name: ast-studio
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    autoDeploy: true
