@@ -1,0 +1,13 @@
+int a = 1;
+int b = 2;
+int c = 3;
+int x = a + b * c;
+int y = (a + b) * c;
+int z = a - (b - c);
+int w = a - b - c;
+float f = -(a + b) / 2.5;
+int n = -a * -b;
+int q = a / (b * c) + c;
+int cmp = a + 1 < b * 2;
+int eq = (a < b) == (b < c);
+x = f(a, b + 1, c);

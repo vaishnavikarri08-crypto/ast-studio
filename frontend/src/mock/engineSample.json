@@ -1,0 +1,891 @@
+{
+  "success": true,
+  "tokens": [
+    {
+      "type": "KEYWORD",
+      "lexeme": "int",
+      "line": 2,
+      "column": 1
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "calculate",
+      "line": 2,
+      "column": 5
+    },
+    {
+      "type": "LPAREN",
+      "lexeme": "(",
+      "line": 2,
+      "column": 14
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "int",
+      "line": 2,
+      "column": 15
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "a",
+      "line": 2,
+      "column": 19
+    },
+    {
+      "type": "COMMA",
+      "lexeme": ",",
+      "line": 2,
+      "column": 20
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "int",
+      "line": 2,
+      "column": 22
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "b",
+      "line": 2,
+      "column": 26
+    },
+    {
+      "type": "RPAREN",
+      "lexeme": ")",
+      "line": 2,
+      "column": 27
+    },
+    {
+      "type": "LBRACE",
+      "lexeme": "{",
+      "line": 2,
+      "column": 29
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "int",
+      "line": 3,
+      "column": 5
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "result",
+      "line": 3,
+      "column": 9
+    },
+    {
+      "type": "ASSIGNMENT_OPERATOR",
+      "lexeme": "=",
+      "line": 3,
+      "column": 16
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "a",
+      "line": 3,
+      "column": 18
+    },
+    {
+      "type": "PLUS",
+      "lexeme": "+",
+      "line": 3,
+      "column": 20
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "b",
+      "line": 3,
+      "column": 22
+    },
+    {
+      "type": "MULTIPLY",
+      "lexeme": "*",
+      "line": 3,
+      "column": 24
+    },
+    {
+      "type": "INT_LITERAL",
+      "lexeme": "2",
+      "line": 3,
+      "column": 26
+    },
+    {
+      "type": "SEMICOLON",
+      "lexeme": ";",
+      "line": 3,
+      "column": 27
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "if",
+      "line": 4,
+      "column": 5
+    },
+    {
+      "type": "LPAREN",
+      "lexeme": "(",
+      "line": 4,
+      "column": 8
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "result",
+      "line": 4,
+      "column": 9
+    },
+    {
+      "type": "GT",
+      "lexeme": ">",
+      "line": 4,
+      "column": 16
+    },
+    {
+      "type": "INT_LITERAL",
+      "lexeme": "10",
+      "line": 4,
+      "column": 18
+    },
+    {
+      "type": "RPAREN",
+      "lexeme": ")",
+      "line": 4,
+      "column": 20
+    },
+    {
+      "type": "LBRACE",
+      "lexeme": "{",
+      "line": 4,
+      "column": 22
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "result",
+      "line": 5,
+      "column": 9
+    },
+    {
+      "type": "ASSIGNMENT_OPERATOR",
+      "lexeme": "=",
+      "line": 5,
+      "column": 16
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "result",
+      "line": 5,
+      "column": 18
+    },
+    {
+      "type": "MINUS",
+      "lexeme": "-",
+      "line": 5,
+      "column": 25
+    },
+    {
+      "type": "INT_LITERAL",
+      "lexeme": "1",
+      "line": 5,
+      "column": 27
+    },
+    {
+      "type": "SEMICOLON",
+      "lexeme": ";",
+      "line": 5,
+      "column": 28
+    },
+    {
+      "type": "RBRACE",
+      "lexeme": "}",
+      "line": 6,
+      "column": 5
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "else",
+      "line": 6,
+      "column": 7
+    },
+    {
+      "type": "LBRACE",
+      "lexeme": "{",
+      "line": 6,
+      "column": 12
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "result",
+      "line": 7,
+      "column": 9
+    },
+    {
+      "type": "ASSIGNMENT_OPERATOR",
+      "lexeme": "=",
+      "line": 7,
+      "column": 16
+    },
+    {
+      "type": "INT_LITERAL",
+      "lexeme": "0",
+      "line": 7,
+      "column": 18
+    },
+    {
+      "type": "SEMICOLON",
+      "lexeme": ";",
+      "line": 7,
+      "column": 19
+    },
+    {
+      "type": "RBRACE",
+      "lexeme": "}",
+      "line": 8,
+      "column": 5
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "return",
+      "line": 9,
+      "column": 5
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "result",
+      "line": 9,
+      "column": 12
+    },
+    {
+      "type": "SEMICOLON",
+      "lexeme": ";",
+      "line": 9,
+      "column": 18
+    },
+    {
+      "type": "RBRACE",
+      "lexeme": "}",
+      "line": 10,
+      "column": 1
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "int",
+      "line": 12,
+      "column": 1
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "main",
+      "line": 12,
+      "column": 5
+    },
+    {
+      "type": "LPAREN",
+      "lexeme": "(",
+      "line": 12,
+      "column": 9
+    },
+    {
+      "type": "RPAREN",
+      "lexeme": ")",
+      "line": 12,
+      "column": 10
+    },
+    {
+      "type": "LBRACE",
+      "lexeme": "{",
+      "line": 12,
+      "column": 12
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "int",
+      "line": 13,
+      "column": 5
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "i",
+      "line": 13,
+      "column": 9
+    },
+    {
+      "type": "ASSIGNMENT_OPERATOR",
+      "lexeme": "=",
+      "line": 13,
+      "column": 11
+    },
+    {
+      "type": "INT_LITERAL",
+      "lexeme": "0",
+      "line": 13,
+      "column": 13
+    },
+    {
+      "type": "SEMICOLON",
+      "lexeme": ";",
+      "line": 13,
+      "column": 14
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "while",
+      "line": 14,
+      "column": 5
+    },
+    {
+      "type": "LPAREN",
+      "lexeme": "(",
+      "line": 14,
+      "column": 11
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "i",
+      "line": 14,
+      "column": 12
+    },
+    {
+      "type": "LT",
+      "lexeme": "<",
+      "line": 14,
+      "column": 14
+    },
+    {
+      "type": "INT_LITERAL",
+      "lexeme": "3",
+      "line": 14,
+      "column": 16
+    },
+    {
+      "type": "RPAREN",
+      "lexeme": ")",
+      "line": 14,
+      "column": 17
+    },
+    {
+      "type": "LBRACE",
+      "lexeme": "{",
+      "line": 14,
+      "column": 19
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "i",
+      "line": 15,
+      "column": 9
+    },
+    {
+      "type": "ASSIGNMENT_OPERATOR",
+      "lexeme": "=",
+      "line": 15,
+      "column": 11
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "i",
+      "line": 15,
+      "column": 13
+    },
+    {
+      "type": "PLUS",
+      "lexeme": "+",
+      "line": 15,
+      "column": 15
+    },
+    {
+      "type": "INT_LITERAL",
+      "lexeme": "1",
+      "line": 15,
+      "column": 17
+    },
+    {
+      "type": "SEMICOLON",
+      "lexeme": ";",
+      "line": 15,
+      "column": 18
+    },
+    {
+      "type": "RBRACE",
+      "lexeme": "}",
+      "line": 16,
+      "column": 5
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "return",
+      "line": 17,
+      "column": 5
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "calculate",
+      "line": 17,
+      "column": 12
+    },
+    {
+      "type": "LPAREN",
+      "lexeme": "(",
+      "line": 17,
+      "column": 21
+    },
+    {
+      "type": "IDENTIFIER",
+      "lexeme": "i",
+      "line": 17,
+      "column": 22
+    },
+    {
+      "type": "COMMA",
+      "lexeme": ",",
+      "line": 17,
+      "column": 23
+    },
+    {
+      "type": "INT_LITERAL",
+      "lexeme": "4",
+      "line": 17,
+      "column": 25
+    },
+    {
+      "type": "RPAREN",
+      "lexeme": ")",
+      "line": 17,
+      "column": 26
+    },
+    {
+      "type": "SEMICOLON",
+      "lexeme": ";",
+      "line": 17,
+      "column": 27
+    },
+    {
+      "type": "RBRACE",
+      "lexeme": "}",
+      "line": 18,
+      "column": 1
+    },
+    {
+      "type": "END_OF_FILE",
+      "lexeme": "",
+      "line": 19,
+      "column": 1
+    }
+  ],
+  "comments": [
+    {
+      "text": "// AST Studio demo program",
+      "line": 1,
+      "column": 1
+    },
+    {
+      "text": "// precedence demo",
+      "line": 3,
+      "column": 29
+    }
+  ],
+  "ast": {
+    "kind": "Program",
+    "line": 2,
+    "column": 1,
+    "endLine": 18,
+    "endColumn": 2,
+    "children": [
+      {
+        "kind": "FunctionDecl",
+        "name": "calculate",
+        "varType": "int",
+        "line": 2,
+        "column": 1,
+        "endLine": 10,
+        "endColumn": 2,
+        "leadingComments": [
+          "// AST Studio demo program"
+        ],
+        "children": [
+          {
+            "kind": "Param",
+            "name": "a",
+            "varType": "int",
+            "line": 2,
+            "column": 15,
+            "endLine": 2,
+            "endColumn": 20,
+            "children": []
+          },
+          {
+            "kind": "Param",
+            "name": "b",
+            "varType": "int",
+            "line": 2,
+            "column": 22,
+            "endLine": 2,
+            "endColumn": 27,
+            "children": []
+          },
+          {
+            "kind": "Block",
+            "line": 2,
+            "column": 29,
+            "endLine": 10,
+            "endColumn": 2,
+            "children": [
+              {
+                "kind": "Declaration",
+                "name": "result",
+                "varType": "int",
+                "line": 3,
+                "column": 5,
+                "endLine": 3,
+                "endColumn": 28,
+                "trailingComment": "// precedence demo",
+                "children": [
+                  {
+                    "kind": "BinaryOp",
+                    "op": "+",
+                    "line": 3,
+                    "column": 18,
+                    "endLine": 3,
+                    "endColumn": 27,
+                    "children": [
+                      {
+                        "kind": "Identifier",
+                        "name": "a",
+                        "line": 3,
+                        "column": 18,
+                        "endLine": 3,
+                        "endColumn": 19,
+                        "children": []
+                      },
+                      {
+                        "kind": "BinaryOp",
+                        "op": "*",
+                        "line": 3,
+                        "column": 22,
+                        "endLine": 3,
+                        "endColumn": 27,
+                        "children": [
+                          {
+                            "kind": "Identifier",
+                            "name": "b",
+                            "line": 3,
+                            "column": 22,
+                            "endLine": 3,
+                            "endColumn": 23,
+                            "children": []
+                          },
+                          {
+                            "kind": "IntLiteral",
+                            "value": "2",
+                            "line": 3,
+                            "column": 26,
+                            "endLine": 3,
+                            "endColumn": 27,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "If",
+                "line": 4,
+                "column": 5,
+                "endLine": 8,
+                "endColumn": 6,
+                "children": [
+                  {
+                    "kind": "BinaryOp",
+                    "op": ">",
+                    "line": 4,
+                    "column": 9,
+                    "endLine": 4,
+                    "endColumn": 20,
+                    "children": [
+                      {
+                        "kind": "Identifier",
+                        "name": "result",
+                        "line": 4,
+                        "column": 9,
+                        "endLine": 4,
+                        "endColumn": 15,
+                        "children": []
+                      },
+                      {
+                        "kind": "IntLiteral",
+                        "value": "10",
+                        "line": 4,
+                        "column": 18,
+                        "endLine": 4,
+                        "endColumn": 20,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Block",
+                    "line": 4,
+                    "column": 22,
+                    "endLine": 6,
+                    "endColumn": 6,
+                    "children": [
+                      {
+                        "kind": "Assignment",
+                        "name": "result",
+                        "line": 5,
+                        "column": 9,
+                        "endLine": 5,
+                        "endColumn": 29,
+                        "children": [
+                          {
+                            "kind": "BinaryOp",
+                            "op": "-",
+                            "line": 5,
+                            "column": 18,
+                            "endLine": 5,
+                            "endColumn": 28,
+                            "children": [
+                              {
+                                "kind": "Identifier",
+                                "name": "result",
+                                "line": 5,
+                                "column": 18,
+                                "endLine": 5,
+                                "endColumn": 24,
+                                "children": []
+                              },
+                              {
+                                "kind": "IntLiteral",
+                                "value": "1",
+                                "line": 5,
+                                "column": 27,
+                                "endLine": 5,
+                                "endColumn": 28,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Block",
+                    "line": 6,
+                    "column": 12,
+                    "endLine": 8,
+                    "endColumn": 6,
+                    "children": [
+                      {
+                        "kind": "Assignment",
+                        "name": "result",
+                        "line": 7,
+                        "column": 9,
+                        "endLine": 7,
+                        "endColumn": 20,
+                        "children": [
+                          {
+                            "kind": "IntLiteral",
+                            "value": "0",
+                            "line": 7,
+                            "column": 18,
+                            "endLine": 7,
+                            "endColumn": 19,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "Return",
+                "line": 9,
+                "column": 5,
+                "endLine": 9,
+                "endColumn": 19,
+                "children": [
+                  {
+                    "kind": "Identifier",
+                    "name": "result",
+                    "line": 9,
+                    "column": 12,
+                    "endLine": 9,
+                    "endColumn": 18,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "FunctionDecl",
+        "name": "main",
+        "varType": "int",
+        "line": 12,
+        "column": 1,
+        "endLine": 18,
+        "endColumn": 2,
+        "children": [
+          {
+            "kind": "Block",
+            "line": 12,
+            "column": 12,
+            "endLine": 18,
+            "endColumn": 2,
+            "children": [
+              {
+                "kind": "Declaration",
+                "name": "i",
+                "varType": "int",
+                "line": 13,
+                "column": 5,
+                "endLine": 13,
+                "endColumn": 15,
+                "children": [
+                  {
+                    "kind": "IntLiteral",
+                    "value": "0",
+                    "line": 13,
+                    "column": 13,
+                    "endLine": 13,
+                    "endColumn": 14,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "kind": "While",
+                "line": 14,
+                "column": 5,
+                "endLine": 16,
+                "endColumn": 6,
+                "children": [
+                  {
+                    "kind": "BinaryOp",
+                    "op": "<",
+                    "line": 14,
+                    "column": 12,
+                    "endLine": 14,
+                    "endColumn": 17,
+                    "children": [
+                      {
+                        "kind": "Identifier",
+                        "name": "i",
+                        "line": 14,
+                        "column": 12,
+                        "endLine": 14,
+                        "endColumn": 13,
+                        "children": []
+                      },
+                      {
+                        "kind": "IntLiteral",
+                        "value": "3",
+                        "line": 14,
+                        "column": 16,
+                        "endLine": 14,
+                        "endColumn": 17,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Block",
+                    "line": 14,
+                    "column": 19,
+                    "endLine": 16,
+                    "endColumn": 6,
+                    "children": [
+                      {
+                        "kind": "Assignment",
+                        "name": "i",
+                        "line": 15,
+                        "column": 9,
+                        "endLine": 15,
+                        "endColumn": 19,
+                        "children": [
+                          {
+                            "kind": "BinaryOp",
+                            "op": "+",
+                            "line": 15,
+                            "column": 13,
+                            "endLine": 15,
+                            "endColumn": 18,
+                            "children": [
+                              {
+                                "kind": "Identifier",
+                                "name": "i",
+                                "line": 15,
+                                "column": 13,
+                                "endLine": 15,
+                                "endColumn": 14,
+                                "children": []
+                              },
+                              {
+                                "kind": "IntLiteral",
+                                "value": "1",
+                                "line": 15,
+                                "column": 17,
+                                "endLine": 15,
+                                "endColumn": 18,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "Return",
+                "line": 17,
+                "column": 5,
+                "endLine": 17,
+                "endColumn": 28,
+                "children": [
+                  {
+                    "kind": "Call",
+                    "name": "calculate",
+                    "line": 17,
+                    "column": 12,
+                    "endLine": 17,
+                    "endColumn": 27,
+                    "children": [
+                      {
+                        "kind": "Identifier",
+                        "name": "i",
+                        "line": 17,
+                        "column": 22,
+                        "endLine": 17,
+                        "endColumn": 23,
+                        "children": []
+                      },
+                      {
+                        "kind": "IntLiteral",
+                        "value": "4",
+                        "line": 17,
+                        "column": 25,
+                        "endLine": 17,
+                        "endColumn": 26,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "formatted": "// AST Studio demo program\nint calculate(int a, int b) {\n    int result = a + b * 2; // precedence demo\n    if (result > 10) {\n        result = result - 1;\n    } else {\n        result = 0;\n    }\n    return result;\n}\n\nint main() {\n    int i = 0;\n    while (i < 3) {\n        i = i + 1;\n    }\n    return calculate(i, 4);\n}\n",
+  "errors": [],
+  "mode": "engine",
+  "diagnostics": ""
+}
